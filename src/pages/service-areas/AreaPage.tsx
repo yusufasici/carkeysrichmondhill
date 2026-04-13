@@ -16,12 +16,12 @@ interface AreaPageProps {
   phone?: string;
 }
 
-const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) => (
+const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(416) 816-5740" }) => (
   <div className="min-h-screen bg-background">
     <Header />
     <Helmet>
       <title>Locksmith {city} | 24/7 Emergency Locksmith Services | Car Keys Richmond Hill</title>
-      <meta name="description" content={`Professional 24/7 locksmith services in ${city}. Car lockouts, key replacement, home & business locks. Licensed, insured, fast response. Call (647) 906-8124 now!`} />
+      <meta name="description" content={`Professional 24/7 locksmith services in ${city}. Car lockouts, key replacement, home & business locks. Licensed, insured, fast response. Call (416) 816-5740 now!`} />
       <meta name="keywords" content={`locksmith ${city.toLowerCase()}, ${city.toLowerCase()} locksmith, emergency locksmith ${city.toLowerCase()}, car lockout ${city.toLowerCase()}, automotive locksmith ${city.toLowerCase()}, residential locksmith ${city.toLowerCase()}, commercial locksmith ${city.toLowerCase()}, 24/7 locksmith ${city.toLowerCase()}`} />
       <link rel="canonical" href={`https://carkeysrichmondhill.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`} />
       <meta property="og:title" content={`Locksmith ${city} | Car Keys Richmond Hill`} />
@@ -60,7 +60,7 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
               }
             ]
           },
-          "telephone": "+16479068124",
+          "telephone": "+14168165740",
           "url": "https://carkeysrichmondhill.ca",
           "openingHours": "Mo-Su 00:00-23:59"
         })}
@@ -85,9 +85,9 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
             className="bg-primary hover:bg-primary-glow text-primary-foreground font-bold text-lg px-8 py-6 gap-3 shadow-[var(--shadow-glow)]"
             asChild
         >
-            <a href="tel:+16479068124">
+            <a href="tel:+14168165740">
             <Phone className="h-6 w-6" />
-            Call Now: (647) 906-8124
+            Call Now: (416) 816-5740
             </a>
         </Button>
         <Button 
@@ -96,7 +96,7 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
             asChild
         >
             <a 
-            href="https://wa.me/16479068124?text=Hi%20AutoKey%20Express%2C%20I%20need%20help%20with"
+            href="https://wa.me/14168165740?text=Hi%20AutoKey%20Express%2C%20I%20need%20help%20with"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"

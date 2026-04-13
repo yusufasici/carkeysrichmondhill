@@ -27,7 +27,7 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+16479068124",
+          "telephone": "+14168165740",
           "contactType": "customer service",
           "availableLanguage": ["en", "fr"],
           "areaServed": "CA"
@@ -41,7 +41,7 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
           "https://carkeysrichmondhill.ca/logo.png",
           "https://carkeysrichmondhill.ca/og.png"
         ],
-        "telephone": "+16479068124",
+        "telephone": "+14168165740",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "28 Eugenia Ct",

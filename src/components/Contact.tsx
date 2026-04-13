@@ -101,7 +101,7 @@ const Contact = () => {
                 <div className="flex-1">
                   <div className="font-bold text-foreground text-base mb-0.5">Emergency Hotline</div>
                   <div className="text-sm text-muted-foreground mb-0.5">Available 24/7 for emergencies</div>
-                  <a href="tel:+16479068124" className="text-primary font-semibold text-base">(647) 906-8124</a>
+                  <a href="tel:+14168165740" className="text-primary font-semibold text-base">(416) 816-5740</a>
                 </div>
               </div>
               {/* WhatsApp Card */}
@@ -114,7 +114,7 @@ const Contact = () => {
                   <div className="font-bold text-foreground text-base mb-0.5">WhatsApp Message</div>
                   <div className="text-sm text-muted-foreground mb-0.5">Chat with us instantly on WhatsApp</div>
                   <a
-                    href="https://wa.me/16479068124"
+                    href="https://wa.me/14168165740"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary font-semibold text-base"

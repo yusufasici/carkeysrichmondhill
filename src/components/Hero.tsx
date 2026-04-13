@@ -72,9 +72,9 @@ const Hero: React.FC<HeroProps> = ({ children, image }) => {
                   className="bg-primary hover:bg-primary-glow text-primary-foreground font-bold text-lg px-8 py-6 gap-3 shadow-[var(--shadow-glow)]"
                   asChild
                 >
-                  <a href="tel:+16479068124">
+                  <a href="tel:+14168165740">
                     <Phone className="h-6 w-6" />
-                    Call Now: (647) 906-8124
+                    Call Now: (416) 816-5740
                   </a>
                 </Button>
                 <Button 
@@ -83,7 +83,7 @@ const Hero: React.FC<HeroProps> = ({ children, image }) => {
                   asChild
                 >
                   <a 
-                    href="https://wa.me/16479068124?text=Hi%20AutoKey%20Express%2C%20I%20need%20help%20with"
+                    href="https://wa.me/14168165740?text=Hi%20AutoKey%20Express%2C%20I%20need%20help%20with"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
