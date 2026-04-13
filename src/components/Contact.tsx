@@ -203,7 +203,7 @@ const Contact = () => {
                 <div className="flex-1">
                   <div className="font-bold text-foreground text-base mb-0.5">Email Us</div>
                   <div className="text-sm text-muted-foreground mb-0.5">Get a response within 24 hours</div>
-                  <a href="mailto:info@autokeyexpress.ca" className="text-primary font-semibold text-base">info@autokeyexpress.ca</a>
+                  <a href="mailto:info@carkeysrichmondhill.ca" className="text-primary font-semibold text-base">info@carkeysrichmondhill.ca</a>
                 </div>
               </div>
             </div>

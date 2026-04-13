@@ -241,4 +241,4 @@ Since this is designed for iPhone, follow these steps for iOS deployment:
 
 ## License
 
-This project is proprietary software for AutoKey Express inventory management.
+This project is proprietary software for Car Keys Richmond Hill inventory management.

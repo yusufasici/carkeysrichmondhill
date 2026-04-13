@@ -11,17 +11,17 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://autokeyexpress.ca/#organization",
-        "name": "AutoKey Express",
-        "url": "https://autokeyexpress.ca",
+        "@id": "https://carkeysrichmondhill.ca/#organization",
+        "name": "Car Keys Richmond Hill",
+        "url": "https://carkeysrichmondhill.ca",
         "sameAs": [
           "https://www.google.com/maps/place/AutoKey+Express",
-          "https://www.facebook.com/autokeyexpress",
-          "https://www.instagram.com/autokeyexpress"
+          "https://www.facebook.com/carkeysrichmondhill",
+          "https://www.instagram.com/carkeysrichmondhill"
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://autokeyexpress.ca/logo.png",
+          "url": "https://carkeysrichmondhill.ca/logo.png",
           "width": 400,
           "height": 400
         },
@@ -35,11 +35,11 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://autokeyexpress.ca/#localbusiness",
-        "name": city ? `AutoKey Express - Locksmith ${city}` : "AutoKey Express",
+        "@id": "https://carkeysrichmondhill.ca/#localbusiness",
+        "name": city ? `Car Keys Richmond Hill - Locksmith ${city}` : "Car Keys Richmond Hill",
         "image": [
-          "https://autokeyexpress.ca/logo.png",
-          "https://autokeyexpress.ca/og.png"
+          "https://carkeysrichmondhill.ca/logo.png",
+          "https://carkeysrichmondhill.ca/og.png"
         ],
         "telephone": "+16479068124",
         "address": {
@@ -83,25 +83,25 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
       },
       {
         "@type": "WebSite",
-        "@id": "https://autokeyexpress.ca/#website",
-        "url": "https://autokeyexpress.ca",
-        "name": "AutoKey Express",
+        "@id": "https://carkeysrichmondhill.ca/#website",
+        "url": "https://carkeysrichmondhill.ca",
+        "name": "Car Keys Richmond Hill",
         "description": "Professional 24/7 locksmith services across the Greater Toronto Area",
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://autokeyexpress.ca/?s={search_term_string}",
+          "target": "https://carkeysrichmondhill.ca/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://autokeyexpress.ca/#breadcrumbs",
+        "@id": "https://carkeysrichmondhill.ca/#breadcrumbs",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "item": {
-              "@id": "https://autokeyexpress.ca/",
+              "@id": "https://carkeysrichmondhill.ca/",
               "name": "Home"
             }
           },
@@ -109,7 +109,7 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
             "@type": "ListItem",
             "position": 2,
             "item": {
-              "@id": `https://autokeyexpress.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`,
+              "@id": `https://carkeysrichmondhill.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`,
               "name": `Locksmith ${city}`
             }
           }] : []),
@@ -117,7 +117,7 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
             "@type": "ListItem",
             "position": city ? 3 : 2,
             "item": {
-              "@id": `https://autokeyexpress.ca/services/${service.toLowerCase().replace(/\s/g, "-")}`,
+              "@id": `https://carkeysrichmondhill.ca/services/${service.toLowerCase().replace(/\s/g, "-")}`,
               "name": service
             }
           }] : [])

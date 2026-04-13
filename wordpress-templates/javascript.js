@@ -1,4 +1,4 @@
-// WordPress-Compatible JavaScript for AutoKey Express
+// WordPress-Compatible JavaScript for Car Keys Richmond Hill
 
 // Mobile Menu Toggle
 function toggleMobileMenu() {
@@ -132,7 +132,7 @@ function clearErrorMessages(form) {
 }
 
 // WordPress Integration Helper Functions
-const AutoKeyExpress = {
+const carkeysrichmondhill = {
     // Initialize all components
     init: function() {
         this.setupMobileMenu();
@@ -196,4 +196,4 @@ const AutoKeyExpress = {
 };
 
 // Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', AutoKeyExpress.init.bind(AutoKeyExpress));
+document.addEventListener('DOMContentLoaded', carkeysrichmondhill.init.bind(carkeysrichmondhill));
