@@ -56,7 +56,7 @@ const Hero: React.FC<HeroProps> = ({ children, image }) => {
             <>
               {/* Logo Mascot*/}
               <div className="flex items-center justify-center">
-                <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="AutoKey Express Professional Locksmith Services GTA" />
+                <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="Car Keys Richmond Hill Professional Locksmith Services GTA" />
               </div>
 
               {/* Enhanced Subtitle with Keywords */}

@@ -13,7 +13,7 @@ const About = () => {
             <div className="w-3 h-3 bg-primary rounded-full animate-pulse"></div>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Why AutoKey Express?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Why Car Keys Richmond Hill?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We provide fast, professional locksmith services across automotive, residential and commercial sectors. Our technicians are licensed, fully insured, and equipped with modern tools to deliver damage-free results anytime you need us.
           </p>
