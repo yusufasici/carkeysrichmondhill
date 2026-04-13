@@ -43,14 +43,14 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ title, description, heroIma
   <div className="min-h-screen bg-background">
     <Header />
     <Helmet>
-      <title>{title} | 24/7 Locksmith Services GTA | AutoKey Express</title>
+      <title>{title} | 24/7 Locksmith Services GTA | Car Keys Richmond Hill</title>
       <meta name="description" content={`${description} Licensed, insured, fast response. Call (647) 906-8124 for immediate assistance.`} />
       <meta name="keywords" content={`${title.toLowerCase()}, locksmith, GTA, Toronto, emergency locksmith, 24/7 locksmith, ${services.slice(0, 5).join(', ').toLowerCase()}`} />
-      <link rel="canonical" href={`https://autokeyexpress.ca/services/${title.toLowerCase().replace(/\s/g, "-")}`} />
-      <meta property="og:title" content={`${title} | AutoKey Express`} />
+      <link rel="canonical" href={`https://carkeysrichmondhill.ca/services/${title.toLowerCase().replace(/\s/g, "-")}`} />
+      <meta property="og:title" content={`${title} | Car Keys Richmond Hill`} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="service" />
-      <meta property="og:url" content={`https://autokeyexpress.ca/services/${title.toLowerCase().replace(/\s/g, "-")}`} />
+      <meta property="og:url" content={`https://carkeysrichmondhill.ca/services/${title.toLowerCase().replace(/\s/g, "-")}`} />
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
@@ -59,9 +59,9 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ title, description, heroIma
           "description": description,
           "provider": {
             "@type": "LocalBusiness",
-            "name": "AutoKey Express",
+            "name": "Car Keys Richmond Hill",
             "telephone": "+16479068124",
-            "url": "https://autokeyexpress.ca"
+            "url": "https://carkeysrichmondhill.ca"
           },
           "areaServed": [
             "Toronto", "Mississauga", "Brampton", "Markham", "Vaughan", "Richmond Hill", "Scarborough", "North York", "Etobicoke"
@@ -76,7 +76,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ title, description, heroIma
     </Helmet>
     <Hero image={heroImage}>
       <div className="flex items-center justify-center">
-        <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="AutoKey Express Mascot" />
+        <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="Car Keys Richmond Hill Mascot" />
       </div>
       
       {/* Subtitle */}

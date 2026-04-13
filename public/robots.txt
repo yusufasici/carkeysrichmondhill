@@ -22,7 +22,7 @@ User-agent: LinkedInBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://autokeyexpress.ca/sitemap.xml
+Sitemap: https://carkeysrichmondhill.ca/sitemap.xml
 
 # Crawl delay for other bots
 User-agent: *

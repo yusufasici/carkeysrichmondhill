@@ -87,8 +87,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@autokeyexpress.ca" className="hover:text-primary transition-colors">
-                  info@autokeyexpress.ca
+                <a href="mailto:info@carkeysrichmondhill.ca" className="hover:text-primary transition-colors">
+                  info@carkeysrichmondhill.ca
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -118,7 +118,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AutoKey Express. All rights reserved.
+            © {new Date().getFullYear()} Car Keys Richmond Hill. All rights reserved.
           </p>
         </div>
       </div>

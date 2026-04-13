@@ -20,19 +20,19 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
   <div className="min-h-screen bg-background">
     <Header />
     <Helmet>
-      <title>Locksmith {city} | 24/7 Emergency Locksmith Services | AutoKey Express</title>
+      <title>Locksmith {city} | 24/7 Emergency Locksmith Services | Car Keys Richmond Hill</title>
       <meta name="description" content={`Professional 24/7 locksmith services in ${city}. Car lockouts, key replacement, home & business locks. Licensed, insured, fast response. Call (647) 906-8124 now!`} />
       <meta name="keywords" content={`locksmith ${city.toLowerCase()}, ${city.toLowerCase()} locksmith, emergency locksmith ${city.toLowerCase()}, car lockout ${city.toLowerCase()}, automotive locksmith ${city.toLowerCase()}, residential locksmith ${city.toLowerCase()}, commercial locksmith ${city.toLowerCase()}, 24/7 locksmith ${city.toLowerCase()}`} />
-      <link rel="canonical" href={`https://autokeyexpress.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`} />
-      <meta property="og:title" content={`Locksmith ${city} | AutoKey Express`} />
+      <link rel="canonical" href={`https://carkeysrichmondhill.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`} />
+      <meta property="og:title" content={`Locksmith ${city} | Car Keys Richmond Hill`} />
       <meta property="og:description" content={`24/7 Locksmith in ${city}. Car, home, and business lockouts, key replacement, rekeying, and more. Call now!`} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={`https://autokeyexpress.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`} />
+      <meta property="og:url" content={`https://carkeysrichmondhill.ca/locksmith-${city.toLowerCase().replace(/\s/g, "")}`} />
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": `AutoKey Express - Locksmith ${city}`,
+          "name": `Car Keys Richmond Hill - Locksmith ${city}`,
           "description": `Professional 24/7 locksmith services in ${city}. Automotive, residential, and commercial locksmith solutions.`,
           "serviceArea": {
             "@type": "City",
@@ -61,7 +61,7 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
             ]
           },
           "telephone": "+16479068124",
-          "url": "https://autokeyexpress.ca",
+          "url": "https://carkeysrichmondhill.ca",
           "openingHours": "Mo-Su 00:00-23:59"
         })}
       </script>
@@ -70,7 +70,7 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(647) 906-8124" }) =
     <Hero>
       {/* Logo Mascot*/}
       <div className="flex items-center justify-center">
-        <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="AutoKey Express Mascot" />
+        <img src={logomascot} className="h-56 w-auto opacity-50 object-contain" alt="Car Keys Richmond Hill Mascot" />
       </div>
 
       {/* Subtitle */}

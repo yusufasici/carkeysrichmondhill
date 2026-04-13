@@ -1,6 +1,6 @@
-# AutoKey Express - WordPress Template Files
+# Car Keys Richmond Hill - WordPress Template Files
 
-This folder contains HTML/CSS templates converted from the React components that you can use to recreate the AutoKey Express website in WordPress.
+This folder contains HTML/CSS templates converted from the React components that you can use to recreate the Car Keys Richmond Hill website in WordPress.
 
 ## Files Included
 
