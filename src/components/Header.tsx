@@ -3,7 +3,6 @@ import { Menu, X, Phone, Instagram, Facebook, Twitter } from "lucide-react";
 import { Home, Wrench, Info, Mail as MailIcon } from "lucide-react";
 import { MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
