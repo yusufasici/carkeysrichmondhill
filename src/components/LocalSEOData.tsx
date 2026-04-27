@@ -20,7 +20,6 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://carkeysrichmondhill.ca/logo.png",
           "width": 400,
           "height": 400
         },
@@ -37,7 +36,6 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
         "@id": "https://carkeysrichmondhill.ca/#localbusiness",
         "name": city ? `Car Keys Richmond Hill - Locksmith ${city}` : "Car Keys Richmond Hill",
         "image": [
-          "https://carkeysrichmondhill.ca/logo.png",
           "https://carkeysrichmondhill.ca/og.png"
         ],
         "telephone": "+14168165740",
