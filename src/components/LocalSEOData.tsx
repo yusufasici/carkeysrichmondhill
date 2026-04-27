@@ -15,7 +15,6 @@ export const LocalSEOData: React.FC<LocalSEOProps> = ({ city, service }) => {
         "name": "Car Keys Richmond Hill",
         "url": "https://carkeysrichmondhill.ca",
         "sameAs": [
-          "https://www.google.com/maps/place/AutoKey+Express",
           "https://www.facebook.com/carkeysrichmondhill",
           "https://www.instagram.com/carkeysrichmondhill"
         ],

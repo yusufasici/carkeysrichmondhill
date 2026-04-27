@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "autokey.express.inventory",
+      "bundleIdentifier": "carkey.richmondhill.inventory",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

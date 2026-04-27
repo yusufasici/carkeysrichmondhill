@@ -96,7 +96,7 @@ const AreaPage: React.FC<AreaPageProps> = ({ city, phone = "(416) 816-5740" }) =
             asChild
         >
             <a 
-            href="https://wa.me/14168165740?text=Hi%20AutoKey%20Express%2C%20I%20need%20help%20with"
+            href="https://wa.me/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
