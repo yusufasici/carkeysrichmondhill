@@ -123,7 +123,7 @@ const Header = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.facebook.com/profile.php?id=61581941300247" 
+                href="https://www.facebook.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary-glow transition-colors"
@@ -262,7 +262,7 @@ const Header = () => {
               <a href="https://www.instagram.com/carkeys.richmondhill/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-glow transition-colors" aria-label="Instagram">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=61581941300247" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-glow transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-glow transition-colors" aria-label="Facebook">
                 <Facebook className="h-6 w-6" />
               </a>
             </div>
